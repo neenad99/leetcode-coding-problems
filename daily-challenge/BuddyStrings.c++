@@ -3,8 +3,6 @@ public:
     bool buddyStrings(string s, string target) {
         int n = s.length();
         int m = target.length();
-        int idx1 = -1;
-        int idx2 = -1;
 
         if(n != m)return false;
 
